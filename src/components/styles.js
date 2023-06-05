@@ -208,6 +208,7 @@ export const SectionCommiteesEach = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 `;
 
 export const SectionCommiteesEachContent = styled.div`

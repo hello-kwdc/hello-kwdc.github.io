@@ -9,7 +9,6 @@ const Conduct = () => {
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>행동 강령</title>
-            <link rel="stylesheet" href="../../src/components/styles.css" />
           </head>
         <style>
         body {
@@ -246,11 +245,6 @@ const Conduct = () => {
         
         </style>
           <body>
-            <div class="kwdc-header">
-              <a href="/" style="text-decoration: none; color: #fff"><div class="kwdc-logo" >KWDC</div></a>
-              <div class="nav-bar">
-              </div>
-            </div>
             <div class="kwdc-body">
               <div class="contents">
                 <div class="title">KWDC 행동 강령</div>

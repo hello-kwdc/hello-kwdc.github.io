@@ -13,6 +13,12 @@ const Map = () => {
     zoom: 15,
   };
 
+  const handleTicketBuy = () => {
+    window.open(
+      "https://smartstore.naver.com/asyncswift/products/8597073830",
+      "_blank"
+    );
+  };
   return (
     <SC.Section>
       <SC.SectionMap>
@@ -36,7 +42,7 @@ const Map = () => {
                 <SC.TicketHeader color="#fff">
                   <div style={{ fontSize: "50px" }}>Ticket</div>
                   <div style={{ marginBottom: "20px" }}>₩68,000</div>
-                  <SC.TicketButton color="#fff">
+                  <SC.TicketButton color="#fff" onClick={handleTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>
@@ -58,7 +64,7 @@ const Map = () => {
                 <SC.TicketHeader color="#000">
                   <div style={{ fontSize: "50px" }}>Scholarship Ticket</div>
                   <div style={{ marginBottom: "20px" }}>₩45,000</div>
-                  <SC.TicketButton color="#000">
+                  <SC.TicketButton color="#000" onClick={handleTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>

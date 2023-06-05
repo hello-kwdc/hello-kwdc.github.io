@@ -1,9 +1,25 @@
 import * as SC from "@/components/styles";
 const Commitees = () => {
+  const handleLinkClick = (type) => {
+    switch (type) {
+      case "adiOS":
+        window.open(`https://www.instagram.com/adios_korea/`, "_blank");
+        break;
+      case "AsyncSwift":
+        window.open(`http://www.asyncswift.org/`, "_blank");
+        break;
+      case "LetSwift":
+        window.open(`http://letswift.kr`, "_blank");
+        break;
+      case "LetUsGo":
+        window.open(`https://let-us-go-2023-spring.vercel.app`, "_blank");
+        break;
+    }
+  };
   return (
     <SC.Section>
       <SC.SectionCommitees>
-        <SC.SectionCommiteesEach>
+        <SC.SectionCommiteesEach onClick={() => handleLinkClick("adiOS")}>
           <SC.SectionCommiteesEachContent>
             <SC.SectionCommiteesEachTitle>adiOS</SC.SectionCommiteesEachTitle>
             <SC.SectionCommiteesEachBody>
@@ -16,7 +32,7 @@ const Commitees = () => {
             <img src="./resources/logo/adiOS_logo.png" />
           </SC.SectionCommiteesEachContentFooter>
         </SC.SectionCommiteesEach>
-        <SC.SectionCommiteesEach>
+        <SC.SectionCommiteesEach onClick={() => handleLinkClick("AsyncSwift")}>
           <SC.SectionCommiteesEachContent>
             <SC.SectionCommiteesEachTitle>
               AsyncSwift
@@ -35,7 +51,7 @@ const Commitees = () => {
             <img src="./resources/logo/AsyncSwift_logo.png" />
           </SC.SectionCommiteesEachContentFooter>
         </SC.SectionCommiteesEach>
-        <SC.SectionCommiteesEach>
+        <SC.SectionCommiteesEach onClick={() => handleLinkClick("LetSwift")}>
           <SC.SectionCommiteesEachContent>
             <SC.SectionCommiteesEachTitle>
               Let'Swift
@@ -53,7 +69,7 @@ const Commitees = () => {
             <img src="./resources/logo/LetSwift_logo.png" />
           </SC.SectionCommiteesEachContentFooter>
         </SC.SectionCommiteesEach>
-        <SC.SectionCommiteesEach>
+        <SC.SectionCommiteesEach onClick={() => handleLinkClick("LetUsGo")}>
           <SC.SectionCommiteesEachContent>
             <SC.SectionCommiteesEachTitle>
               let us: Go!

@@ -9,13 +9,23 @@ const Footer = () => {
       </div>
       <SC.FooterMenu>
         <div>
-          <a href="/">Instagram</a>
-          <a href="/">Twitter</a>
-          <a href="/">Contact Us</a>
+          <a href="https://www.instagram.com/hellokwdc/" target="_blank">
+            Instagram
+          </a>
+          <a href="https://twitter.com/HelloKWDC" target="_blank">
+            Twitter
+          </a>
+          <a href="mailto:hello.kwdc@gmail.com" target="_blank">
+            Contact Us
+          </a>
         </div>
         <div>
-          <a href="/">Code of Conduct</a>
-          <a href="/">Sponsorship Terms</a>
+          <a href="/conduct" target="_blank">
+            Code of Conduct
+          </a>
+          <a href="/terms" target="_blank">
+            Sponsorship Terms
+          </a>
         </div>
       </SC.FooterMenu>
       <div>KWDC23 © 2023</div>
