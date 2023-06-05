@@ -52,11 +52,11 @@ const Sponsors = () => {
                     }}
                   >
                     <div className="sponsor_content" style={{ height: "46%" }}>
-                      <span>Bronze</span>
+                      <span className="sponsor_small">Bronze</span>
                       <img src="./resources/logo/SP_other_logo.png" />
                     </div>
                     <div className="sponsor_content" style={{ height: "46%" }}>
-                      <span>Special</span>
+                      <span className="sponsor_small">Special</span>
                       <img src="./resources/logo/SP_other_logo.png" />
                     </div>
                   </div>

@@ -1,10 +1,10 @@
 import * as SC from "@/components/styles";
 import IconArrowRight from "@/resources/icons/arrowRight.svg";
-const Navigator = () => {
+const Navigator = ({ handleButtonClick }) => {
   return (
     <SC.Navigator>
       <SC.NavLogo>KWDC23</SC.NavLogo>
-      <SC.NavButton>
+      <SC.NavButton onClick={handleButtonClick}>
         <span>Get Ticket</span>
         <IconArrowRight />
       </SC.NavButton>

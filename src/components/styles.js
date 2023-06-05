@@ -159,6 +159,7 @@ export const SectionHome = styled.div`
 `;
 
 export const SectionHomeContent = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,6 +169,19 @@ export const SectionHomeContent = styled.div`
   & > p {
     font-size: 15px;
   }
+`;
+
+export const ContentBackground = styled.div`
+  position: absolute;
+  background-image: url("./resources/background/KWDC23.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 100%;
+  background-size: contain;
 `;
 
 export const SectionHomeContentTitle = styled.span`
@@ -288,19 +302,6 @@ export const SponsorColumn = styled.div`
   width: 100%;
   height: 500px;
   font-size: 50px;
-  @media screen and (max-width: 1300px) {
-    height: 400px;
-  }
-
-  @media screen and (max-width: 1000px) {
-    height: 500px;
-  }
-  @media screen and (max-width: 700px) {
-    height: 400px;
-  }
-  @media screen and (max-width: 600px) {
-    height: 300px;
-  }
 `;
 
 export const SponsorBody = styled.div`

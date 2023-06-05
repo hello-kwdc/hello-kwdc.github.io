@@ -1,3 +1,4 @@
+import { useRef } from "react";
 // Components
 import Navigator from "@/components/Navigator";
 import Home from "@/components/Home";
@@ -16,19 +17,27 @@ import { prefix } from "@/components/config/config";
 import * as SC from "@/components/styles";
 
 const Landing = () => {
+  const scrollRef = useRef(null);
+
+  const handleButtonClick = () => {
+    // 스크롤 위치로 이동하기
+    scrollRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <LandingProvider value={{ prefix }}>
         <SC.Container>
-          <Navigator />
-          <Main />
+          <Navigator handleButtonClick={handleButtonClick} />
+          <Main handleButtonClick={handleButtonClick} />
           <Home />
           <Commitees />
           <Sponsors />
           <Speakers />
           <Timetable />
           <Organizer />
-          <Map />
+          <section ref={scrollRef}>
+            <Map />
+          </section>
           <Footer />
         </SC.Container>
       </LandingProvider>

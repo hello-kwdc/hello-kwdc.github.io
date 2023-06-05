@@ -4,6 +4,7 @@ const Home = () => {
     <SC.Section>
       <SC.SectionHome>
         <SC.SectionHomeContent>
+          <SC.ContentBackground />
           <SC.SectionHomeContentTitle>
             Together, <br />
             we can make great things happen

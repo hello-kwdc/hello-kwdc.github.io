@@ -1,6 +1,6 @@
 import * as SC from "@/components/styles";
 import IconArrowRight from "@/resources/icons/arrowRight.svg";
-const Main = () => {
+const Main = ({ handleButtonClick }) => {
   return (
     <SC.Section>
       <SC.SectionMain>
@@ -18,7 +18,7 @@ const Main = () => {
             Coex Grandballroom, Seoul
           </p>
           <p></p>
-          <SC.SectionMainButton>
+          <SC.SectionMainButton onClick={handleButtonClick}>
             <span>Get Ticket</span>
             <IconArrowRight />
           </SC.SectionMainButton>

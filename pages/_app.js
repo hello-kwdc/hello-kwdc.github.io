@@ -6,15 +6,14 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
+    -ms-overflow-style: none; /* 인터넷 익스플로러 */
+    scrollbar-width: none; /* 파이어폭스 */
+    font-family: 'SF Pro Display', sans-serif;
   }
   body::-webkit-scrollbar {
-    width: 0.5em;
-    background-color: transparent;
+    display: none;
   }
 
-  body::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
 `;
 
 class MyApp extends App {
