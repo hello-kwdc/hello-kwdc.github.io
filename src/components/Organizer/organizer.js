@@ -220,7 +220,7 @@ export const ORGANIZER = [
   },
   {
     name: "Jiin Heo (Jini)",
-    image: "./resources/organizer/jini.png",
+    image: "./resources/organizer/Jini.png",
     comment: <span>저는 html로 코딩하는거 좋아합니다.</span>,
     link: "",
   },
