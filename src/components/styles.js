@@ -567,6 +567,15 @@ export const SectionTitle = styled.div`
   font-weight: 700;
   top: -70px;
   white-space: nowrap;
+  .timetable_title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    white-space: nowrap;
+    @media screen and (max-width: 767px) {
+      white-space: break-spaces !important;
+    }
+  }
 `;
 
 export const SectionOrganizerContents = styled.div`
