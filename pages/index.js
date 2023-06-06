@@ -31,8 +31,8 @@ const Landing = () => {
           <Main handleButtonClick={handleButtonClick} />
           <Home />
           <Commitees />
-          {/* <Sponsors /> */}
-          <Speakers />
+          <Sponsors />
+          {/* <Speakers /> */}
           <Timetable />
           <Organizer />
           <section ref={scrollRef}>
