@@ -181,7 +181,7 @@ export const ORGANIZER = [
   {
     name: "ian",
     image: "./resources/organizer/ian.png",
-    comment: <span>ㅡㅡㅡ</span>,
+    comment: <span>세상을 이롭게 하는 기술력을 갖추고 싶습니다.</span>,
     link: "",
   },
   {

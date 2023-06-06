@@ -332,6 +332,14 @@ export const SponsorBody = styled.div`
       font-size: 19px;
       font-weight: 700;
     }
+    &.soon {
+      background-color: rgba(255, 255, 255, 0.3);
+
+      & > div {
+        font-size: 19px;
+        color: #fff;
+      }
+    }
   }
 `;
 

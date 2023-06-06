@@ -19,11 +19,12 @@ const Sponsors = () => {
               <SC.SponsorBody>
                 <SC.SponsorEach className="sponsor_content">
                   <span>Platinum</span>
-                  <img src="./resources/logo/SP_platium_logo.png" />
+                  <img src="./resources/logo/SP_kakaobank.png" />
                 </SC.SponsorEach>
-                <SC.SponsorEach className="sponsor_content">
+                <SC.SponsorEach className="sponsor_content soon">
                   <span>Platinum</span>
-                  <img src="./resources/logo/SP_platium_logo.png" />
+                  {/* <img src="./resources/logo/SP_platium_logo.png" /> */}
+                  <div>추후 공개됩니다.</div>
                 </SC.SponsorEach>
               </SC.SponsorBody>
             </SC.SponsorColumn>
@@ -32,17 +33,24 @@ const Sponsors = () => {
                 <SC.SponsorEach style={{ gap: "20px" }}>
                   <div className="sponsor_content">
                     <span>Sliver</span>
-                    <img src="./resources/logo/SP_other_logo.png" />
+                    <img
+                      src="./resources/logo/SP_jumpit.png"
+                      style={{ width: "126px !important" }}
+                    />
                   </div>
                   <div className="sponsor_content">
                     <span>Sliver</span>
-                    <img src="./resources/logo/SP_other_logo.png" />
+                    <img
+                      src="./resources/logo/SP_yogiyo.png"
+                      style={{ width: "126px !important" }}
+                    />
                   </div>
                 </SC.SponsorEach>
                 <SC.SponsorEach style={{ gap: "20px" }}>
-                  <div className="sponsor_content">
+                  <div className="sponsor_content soon">
                     <span>Sliver</span>
-                    <img src="./resources/logo/SP_other_logo.png" />
+                    <div>추후 공개됩니다.</div>
+                    {/* <img src="./resources/logo/SP_other_logo.png" /> */}
                   </div>
                   <div
                     style={{
@@ -53,11 +61,18 @@ const Sponsors = () => {
                   >
                     <div className="sponsor_content" style={{ height: "46%" }}>
                       <span className="sponsor_small">Bronze</span>
-                      <img src="./resources/logo/SP_other_logo.png" />
+                      <img
+                        src="./resources/logo/SP_wooa.png"
+                        style={{ width: "126px !important" }}
+                      />
                     </div>
-                    <div className="sponsor_content" style={{ height: "46%" }}>
+                    <div
+                      className="sponsor_content soon"
+                      style={{ height: "46%" }}
+                    >
                       <span className="sponsor_small">Special</span>
-                      <img src="./resources/logo/SP_other_logo.png" />
+                      <div>추후 공개됩니다.</div>
+                      {/* <img src="./resources/logo/SP_other_logo.png" /> */}
                     </div>
                   </div>
                 </SC.SponsorEach>
