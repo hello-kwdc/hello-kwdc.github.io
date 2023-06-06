@@ -1,1 +1,1 @@
-export const prefix = "https://jeongbeen2.github.io/deploytest";
+export const prefix = "https://kwdc.dev";
