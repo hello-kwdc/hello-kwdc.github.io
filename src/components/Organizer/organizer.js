@@ -11,7 +11,7 @@ export const ORGANIZER = [
         성장할 수 있다는 가능성은제 가슴을 뛰게해요 !
       </span>
     ),
-    link: "",
+    link: "https://twitter.com/unnnyong",
   },
   {
     name: "yagom",
@@ -22,7 +22,7 @@ export const ORGANIZER = [
         <br /> 야곰입니다.
       </span>
     ),
-    link: "",
+    link: "https://yagom.github.io/contacts/",
   },
   {
     name: "Lingo",
@@ -33,13 +33,13 @@ export const ORGANIZER = [
         적이 있다면 당신도 이미 해적선의 선원.
       </span>
     ),
-    link: "",
+    link: "https://www.linkedin.com/in/seongkwanyoon/",
   },
   {
     name: "Godrm",
     image: "./resources/organizer/Godrm.png",
     comment: <span>달콤한 스위프트와 후덕한 오브젝티브-C의 혼혈왕자</span>,
-    link: "",
+    link: "http://github.com/godrm",
   },
   {
     name: "Atlas",
@@ -51,7 +51,7 @@ export const ORGANIZER = [
         <br /> 커피 한 잔 어떠세요? ☕️
       </span>
     ),
-    link: "",
+    link: "https://www.instagram.com/dev._.artiee/",
   },
   {
     name: "Noah",
@@ -63,7 +63,7 @@ export const ORGANIZER = [
         가장 좋아합니다 :)
       </span>
     ),
-    link: "",
+    link: "https://github.com/noah0316",
   },
   {
     name: "SongCool",
@@ -74,7 +74,7 @@ export const ORGANIZER = [
         SongCool입니다.
       </span>
     ),
-    link: "",
+    link: "https://www.instagram.com/song_cool/",
   },
   {
     name: "szzang",
@@ -84,13 +84,13 @@ export const ORGANIZER = [
         다양한 사람들과 많은 이야기를 나누는것을 좋아하는 개발자 입니다 :)
       </span>
     ),
-    link: "",
+    link: "https://github.com/szzang-kr",
   },
   {
     name: "SolChan",
     image: "./resources/organizer/SolChan.png",
     comment: <span>🤣😂😄😀🙂🥲</span>,
-    link: "",
+    link: "https://www.linkedin.com/in/solchan/",
   },
   {
     name: "unchain",
@@ -101,7 +101,7 @@ export const ORGANIZER = [
         삽질의 위치가 다를 순 있지만 목표는 항상 내가 파는 땅 밑에 있습니다.
       </span>
     ),
-    link: "",
+    link: "https://github.com/unchain123",
   },
   {
     name: "Leeo",
@@ -112,13 +112,13 @@ export const ORGANIZER = [
         있습니다. 더 많은 사람들을 만나 다양한 이야기를 듣고 싶어요!
       </span>
     ),
-    link: "",
+    link: "https://www.youtube.com/channel/UCz03fpnmfEDOZCrE2hwcsUg",
   },
   {
     name: "Sean",
     image: "./resources/organizer/Sean.png",
     comment: <span>내 이름은 Sean, 개발자죠</span>,
-    link: "",
+    link: "https://www.instagram.com/sean_k_94",
   },
   {
     name: "황지희 (Jee.e)",
@@ -129,19 +129,19 @@ export const ORGANIZER = [
         디발자입니다 :D
       </span>
     ),
-    link: "",
+    link: "https://www.linkedin.com/in/jihee-hwang-0b5741256/",
   },
   {
     name: "이동헌",
     image: "./resources/organizer/이동헌.png",
     comment: <span>즐거운 개발 문화를 만들어 나가고 싶어요.</span>,
-    link: "",
+    link: "https://www.linkedin.com/in/signatur3",
   },
   {
     name: "pete",
     image: "./resources/organizer/pete.png",
     comment: <span>실례지만, 어떻게 지평 좌표계를 고정하셨나요?</span>,
-    link: "",
+    link: "https://www.linkedin.com/in/jinho-jang-620085117/",
   },
   {
     name: "Dora",
@@ -151,7 +151,7 @@ export const ORGANIZER = [
         물음표 해결에 집요한 보통의 디자이너입니다. 사람 알아가는 것을 좋아해요!
       </span>
     ),
-    link: "",
+    link: "https://www.linkedin.com/in/minah-lee-904a50176/",
   },
   {
     name: "Sujin Lee",
@@ -164,25 +164,25 @@ export const ORGANIZER = [
         전파하고 있습니다.
       </span>
     ),
-    link: "",
+    link: "https://www.linkedin.com/in/sujin-lee-pm/",
   },
   {
     name: "Toby",
     image: "./resources/organizer/Toby.png",
     comment: <span>세상을 더 편리하게 바꾸고 싶은 iOS 개발자 Toby입니다!</span>,
-    link: "",
+    link: "https://slowsure.tistory.com",
   },
   {
     name: "vivi",
     image: "./resources/organizer/vivi.png",
     comment: <span>🗣️말하기 👂듣기 ✍️쓰기를 좋아하는 개발자 vivi 입니다!</span>,
-    link: "",
+    link: "https://github.com/YebinKim",
   },
   {
     name: "ian",
     image: "./resources/organizer/ian.png",
     comment: <span>세상을 이롭게 하는 기술력을 갖추고 싶습니다.</span>,
-    link: "",
+    link: "https://www.linkedin.com/in/sungno-lee",
   },
   {
     name: "Hyeoni",
@@ -192,36 +192,36 @@ export const ORGANIZER = [
         오늘보다 내일이 더 나은 사람이 되고 싶은 개발자 Hyeoni 입니다!
       </span>
     ),
-    link: "",
+    link: "https://github.com/seohyeon2",
   },
   {
     name: "KangKyung",
     image: "./resources/organizer/KangKyung.png",
     comment: <span>러닝과 고양이를 사랑합니다😻 </span>,
-    link: "",
+    link: "https://www.instagram.com/kangkyung.os",
   },
   {
     name: "JERCY",
     image: "./resources/organizer/JERCY.png",
     comment: <span>코딩 실력과 근력 모두 단단한 iOS개발자</span>,
-    link: "",
+    link: "https://www.jercy.dev/",
   },
   {
     name: "hongssup",
     image: "./resources/organizer/hongssup.png",
     comment: <span>적당한 고통은 희열이다.</span>,
-    link: "",
+    link: "https://github.com/hongssup",
   },
   {
     name: "Selina",
     image: "./resources/organizer/Selina.png",
     comment: <span>음악을 사랑하는 개발자입니다!</span>,
-    link: "",
+    link: "https://github.com/AhnSangHee",
   },
   {
     name: "Jiin Heo (Jini)",
     image: "./resources/organizer/Jini.png",
     comment: <span>저는 html로 코딩하는거 좋아합니다.</span>,
-    link: "",
+    link: "https://github.com/JIINHEO",
   },
 ];

@@ -459,7 +459,7 @@ export const SpeakerBack = styled.div`
   transition: 0.3s;
   opacity: 0;
   background-color: #343434;
-  cursor: pointer;
+  /* cursor: pointer; */
   &:hover {
     opacity: 1;
   }

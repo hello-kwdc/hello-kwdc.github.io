@@ -10,7 +10,7 @@ const Sponsors = () => {
               <SC.SectionTitle>Sponsors</SC.SectionTitle>
               <SC.SponsorBody>
                 <SC.SponsorEach className="sponsor_content">
-                  <span>Key Stone</span>
+                  <span>Keystone</span>
                   <img src="./resources/logo/SP_Key_logo.png" />
                 </SC.SponsorEach>
               </SC.SponsorBody>
