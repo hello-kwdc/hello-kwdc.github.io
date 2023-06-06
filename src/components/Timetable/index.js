@@ -12,10 +12,11 @@ const SectionTitle = () => {
           fontSize: "16px",
           fontWeight: 400,
           marginTop: "10px",
-          whiteSpace: "breakSpaces",
+          whiteSpace: "break-spaces",
         }}
       >
-        자세한 시간표와 프로그램은 6월 말 공개됩니다.
+        자세한 시간표와 프로그램은 6월 말 공개되며, 발표자 정보와 함께 확인하실
+        수 있습니다.
       </div>
     </SC.SectionTitle>
   );

@@ -8,6 +8,10 @@ export default function Document() {
           href="https://fonts.cdnfonts.com/css/sf-pro-display"
           rel="stylesheet"
         ></link>
+        <meta
+          property="og:image"
+          content="https://kwdc.dev/resources/logo/kwdc_main_logo.png"
+        />
       </Head>
       <body>
         <Main />

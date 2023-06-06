@@ -11,7 +11,10 @@ const Sponsors = () => {
               <SC.SponsorBody>
                 <SC.SponsorEach className="sponsor_content">
                   <span>Keystone</span>
-                  <img src="./resources/logo/SP_Key_logo.png" />
+                  <img
+                    src="./resources/logo/SP_Key_logo.png"
+                    style={{ width: "250px !important" }}
+                  />
                 </SC.SponsorEach>
               </SC.SponsorBody>
             </SC.SponsorColumn>
@@ -19,12 +22,17 @@ const Sponsors = () => {
               <SC.SponsorBody>
                 <SC.SponsorEach className="sponsor_content">
                   <span>Platinum</span>
-                  <img src="./resources/logo/SP_kakaobank.png" />
+                  <img
+                    src="./resources/logo/SP_kakaobank.png"
+                    style={{ width: "230px !important" }}
+                  />
                 </SC.SponsorEach>
-                <SC.SponsorEach className="sponsor_content soon">
+                <SC.SponsorEach className="sponsor_content">
                   <span>Platinum</span>
-                  {/* <img src="./resources/logo/SP_platium_logo.png" /> */}
-                  <div>추후 공개됩니다.</div>
+                  <img
+                    src="./resources/logo/SP_kia_logo.png"
+                    style={{ width: "230px !important" }}
+                  />
                 </SC.SponsorEach>
               </SC.SponsorBody>
             </SC.SponsorColumn>
