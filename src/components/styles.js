@@ -302,11 +302,6 @@ export const SponsorColumn = styled.div`
   width: 100%;
   height: 500px;
   font-size: 50px;
-  & > a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-  }
 `;
 
 export const SponsorBody = styled.div`
