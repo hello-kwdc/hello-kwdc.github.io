@@ -14,17 +14,6 @@ export const ORGANIZER = [
     link: "https://twitter.com/unnnyong",
   },
   {
-    name: "yagom",
-    image: "./resources/organizer/yagom.png",
-    comment: (
-      <span>
-        디지털보다 아날로그를 사랑하는 프로그래머,
-        <br /> 야곰입니다.
-      </span>
-    ),
-    link: "https://yagom.github.io/contacts/",
-  },
-  {
     name: "Lingo",
     image: "./resources/organizer/Lingo.png",
     comment: (
@@ -87,23 +76,6 @@ export const ORGANIZER = [
     link: "https://github.com/szzang-kr",
   },
   {
-    name: "SolChan",
-    image: "./resources/organizer/SolChan.png",
-    comment: <span>🤣😂😄😀🙂🥲</span>,
-    link: "https://www.linkedin.com/in/solchan/",
-  },
-  {
-    name: "unchain",
-    image: "./resources/organizer/unchain.png",
-    comment: (
-      <span>
-        의미있는 삽질을 지향합니다. 하지만 세상에 의미없는 삽질은 없습니다.
-        삽질의 위치가 다를 순 있지만 목표는 항상 내가 파는 땅 밑에 있습니다.
-      </span>
-    ),
-    link: "https://github.com/unchain123",
-  },
-  {
     name: "Leeo",
     image: "./resources/organizer/Leeo.png",
     comment: (
@@ -113,12 +85,6 @@ export const ORGANIZER = [
       </span>
     ),
     link: "https://www.youtube.com/channel/UCz03fpnmfEDOZCrE2hwcsUg",
-  },
-  {
-    name: "Sean",
-    image: "./resources/organizer/Sean.png",
-    comment: <span>내 이름은 Sean, 개발자죠</span>,
-    link: "https://www.instagram.com/sean_k_94",
   },
   {
     name: "황지희 (Jee.e)",
@@ -185,32 +151,10 @@ export const ORGANIZER = [
     link: "https://www.linkedin.com/in/sungno-lee",
   },
   {
-    name: "Hyeoni",
-    image: "./resources/organizer/Hyeoni.png",
-    comment: (
-      <span>
-        오늘보다 내일이 더 나은 사람이 되고 싶은 개발자 Hyeoni 입니다!
-      </span>
-    ),
-    link: "https://github.com/seohyeon2",
-  },
-  {
     name: "KangKyung",
     image: "./resources/organizer/KangKyung.png",
     comment: <span>러닝과 고양이를 사랑합니다😻 </span>,
     link: "https://www.instagram.com/kangkyung.os",
-  },
-  {
-    name: "JERCY",
-    image: "./resources/organizer/JERCY.png",
-    comment: <span>코딩 실력과 근력 모두 단단한 iOS개발자</span>,
-    link: "https://www.jercy.dev/",
-  },
-  {
-    name: "hongssup",
-    image: "./resources/organizer/hongssup.png",
-    comment: <span>적당한 고통은 희열이다.</span>,
-    link: "https://github.com/hongssup",
   },
   {
     name: "Selina",

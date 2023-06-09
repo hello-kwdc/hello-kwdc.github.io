@@ -255,7 +255,7 @@ const Terms = () => {
                     <div class="sub-content-body">
                       <ul>
                         <li>
-                          본 약관은 후원사가 AsyncSwift가 adiOS, Let’Swift, let us: Go!
+                          본 약관은 후원사가 AsyncSwift가 adiOS, Let’Swift
                           (이하 “커뮤니티연합”)와 공동 개최하는 KWDC 행사(이하 “행사”)에
                           후원을 함에 있어 행사 홈페이지에 안내된 내용과 더불어 양
                           당사자 간 권리, 의무를 분명히 하는 것을 목적으로 합니다.

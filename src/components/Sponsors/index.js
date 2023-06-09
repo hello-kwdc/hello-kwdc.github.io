@@ -17,6 +17,9 @@ const Sponsors = () => {
                   />
                 </SC.SponsorEach>
               </SC.SponsorBody>
+              <a href="mailto:lingostar.joker@gmail.com" target="_blank">
+                후원문의: lingostar.joker@gmail.com
+              </a>
             </SC.SponsorColumn>
             <SC.SponsorColumn>
               <SC.SponsorBody>

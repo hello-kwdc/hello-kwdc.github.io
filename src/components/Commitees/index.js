@@ -11,9 +11,6 @@ const Commitees = () => {
       case "LetSwift":
         window.open(`http://letswift.kr`, "_blank");
         break;
-      case "LetUsGo":
-        window.open(`https://let-us-go-2023-spring.vercel.app`, "_blank");
-        break;
     }
   };
   return (
@@ -69,20 +66,17 @@ const Commitees = () => {
             <img src="./resources/logo/LetSwift_logo.png" />
           </SC.SectionCommiteesEachContentFooter>
         </SC.SectionCommiteesEach>
-        <SC.SectionCommiteesEach onClick={() => handleLinkClick("LetUsGo")}>
+        <SC.SectionCommiteesEach>
           <SC.SectionCommiteesEachContent>
             <SC.SectionCommiteesEachTitle>
-              let us: Go!
+              {/* Title */}
             </SC.SectionCommiteesEachTitle>
             <SC.SectionCommiteesEachBody>
-              let us: Go!는 iOS 개발에 관심있는 모두가 모여 개발 노하우와 다양한
-              경험 <br />
-              그리고 정보를 서로 공유하고 자유롭게 소통하는 iOS 커뮤니티입니다.{" "}
-              <br />
+              {/* Comment */}
             </SC.SectionCommiteesEachBody>
           </SC.SectionCommiteesEachContent>
           <SC.SectionCommiteesEachContentFooter>
-            <img src="./resources/logo/LetusGo_logo.png" />
+            {/* Logo */}
           </SC.SectionCommiteesEachContentFooter>
         </SC.SectionCommiteesEach>
       </SC.SectionCommitees>

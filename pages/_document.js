@@ -12,6 +12,11 @@ export default function Document() {
           property="og:image"
           content="https://kwdc.dev/resources/logo/kwdc_main_logo.png"
         />
+        <meta property="og:title" content="KWDC" />
+        <meta
+          property="og:description"
+          content="Together, we can make great things happen"
+        />
       </Head>
       <body>
         <Main />
