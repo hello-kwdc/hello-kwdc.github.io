@@ -55,35 +55,39 @@ const Sponsors = () => {
                   </div>
                 </SC.SponsorEach>
                 <SC.SponsorEach style={{ gap: "20px" }}>
-                  <div className="sponsor_content soon">
-                    <span>Sliver</span>
-                    <div>추후 공개됩니다.</div>
-                    {/* <img src="./resources/logo/SP_other_logo.png" /> */}
+                <div className="sponsor_content">
+                  <span>Sliver</span>
+                  <img
+                    src="./resources/logo/SP_kakaostyle.png"
+                    style={{ width: "126px !important" }}
+                  />
                   </div>
                   <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "20px",
-                    }}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "20px",
+                  }}
                   >
-                    <div className="sponsor_content" style={{ height: "46%" }}>
-                      <span className="sponsor_small">Bronze</span>
-                      <img
-                        src="./resources/logo/SP_wooa.png"
-                        style={{ width: "126px !important" }}
-                      />
-                    </div>
-                    <div
-                      className="sponsor_content soon"
-                      style={{ height: "46%" }}
-                    >
-                      <span className="sponsor_small">Special</span>
-                      <div>추후 공개됩니다.</div>
-                      {/* <img src="./resources/logo/SP_other_logo.png" /> */}
-                    </div>
+                  <div className="sponsor_content" style={{ height: "46%" }}>
+                    <span className="sponsor_small">Bronze</span>
+                    <img
+                      src="./resources/logo/SP_wooa.png"
+                      style={{ width: "126px !important" }}
+                    />
                   </div>
-                </SC.SponsorEach>
+                  <div
+                    className="sponsor_content"
+                    style={{ height: "46%" }}
+                  >
+                    <span className="sponsor_small">Special</span>
+                    <img
+                      src="./resources/logo/SP_smpt.png"
+                      style={{ width: "140px !important" }}
+                    />
+                  </div>
+                  </div>
+                  </SC.SponsorEach>
               </SC.SponsorBody>
               <div style={{ width: "100%", textAlign: "end" }}>
                 <a
