@@ -13,9 +13,16 @@ const Map = () => {
     zoom: 15,
   };
 
-  const handleTicketBuy = () => {
+  const handleGeneralTicketBuy = () => {
     window.open(
-      "https://smartstore.naver.com/asyncswift/products/8597073830",
+      "https://smartstore.naver.com/asyncswift/products/8664677745",
+      "_blank"
+    );
+  };
+
+  const handleScholarshipTicketBuy = () => {
+    window.open(
+      "https://smartstore.naver.com/asyncswift/products/8694166332",
       "_blank"
     );
   };
@@ -40,9 +47,9 @@ const Map = () => {
             <SC.NormalTicket>
               <SC.TicketWrapper>
                 <SC.TicketHeader color="#fff">
-                  <div style={{ fontSize: "50px" }}>Ticket</div>
+                  <div style={{ fontSize: "50px" }}>General Ticket</div>
                   <div style={{ marginBottom: "20px" }}>₩68,000</div>
-                  <SC.TicketButton color="#fff" onClick={handleTicketBuy}>
+                  <SC.TicketButton color="#fff" onClick={handleGeneralTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>
@@ -65,7 +72,7 @@ const Map = () => {
                 <SC.TicketHeader color="#000">
                   <div style={{ fontSize: "50px" }}>Scholarship Ticket</div>
                   <div style={{ marginBottom: "20px" }}>₩45,000</div>
-                  <SC.TicketButton color="#000" onClick={handleTicketBuy}>
+                  <SC.TicketButton color="#000" onClick={handleScholarshipTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>
