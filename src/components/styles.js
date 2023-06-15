@@ -629,6 +629,88 @@ export const OrganizerBody = styled.div`
   color: #fff;
 `;
 
+export const SectionIndivisual = styled.div`
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const SectionIndivisualContent = styled.div`
+  position: relative;
+  display: flex;
+  background-color: #1A1A1A;
+  padding: 80px 0;
+  margin-bottom: 80px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  & > p {
+    font-size: 15px;
+  }
+`;
+
+export const SectionIndivisualContentTitle = styled.span`
+  font-size: 34px;
+  font-weight: 700;
+`;
+
+export const SectionIndivisualContentSubTitle = styled.span`
+  font-size: 16px;
+  color: #F6AB1E;
+  font-weight: 860;
+  margin: 18px 0 11px 0;
+`;
+
+export const SectionIndivisualContentReward = styled.span`
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: #010101;
+  padding: 30px 25px;
+  border-radius: 16px;
+  width: 60%;
+  @media screen and (max-width: 1200px) {
+    & {
+      width: 80%;
+    }
+  }
+`;
+
+export const SectionIndivisualContentRewardSection = styled.span`
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+`;
+
+export const SectionIndivisualContentRewardTitle = styled.span`
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+`;
+
+export const SectionIndivisualContentRewardDescription = styled.span`
+  font-size: 15px;
+  color: #3C3B3B;
+  font-weight: 400;
+  lineHeight: 22.5px;
+`;
+
+export const SectionIndivisualContentRewardCount = styled.span`
+  font-size: 16px;
+  font-weight: 400;
+`;
+
+export const SectionIndivisualContentRewardPrice = styled.span`
+  font-size: 36px;
+  font-weight: 700;
+`;
+
 export const SectionMap = styled.div`
   display: flex;
   justify-content: center;
