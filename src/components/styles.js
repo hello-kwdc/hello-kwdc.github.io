@@ -667,6 +667,7 @@ export const SectionIndivisualContentSubTitle = styled.span`
 `;
 
 export const SectionIndivisualContentReward = styled.span`
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   background-color: #fff;
