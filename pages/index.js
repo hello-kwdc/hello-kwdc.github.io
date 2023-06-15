@@ -7,6 +7,7 @@ import Commitees from "@/components/Commitees";
 import Sponsors from "@/components/Sponsors";
 import Speakers from "@/components/Speakers";
 import Timetable from "@/components/Timetable";
+import Indivisual from "@/components/Indivisual";
 import Organizer from "@/components/Organizer";
 import Map from "@/components/Map";
 import Footer from "@/components/Footer";
@@ -35,6 +36,7 @@ const Landing = () => {
           {/* <Speakers /> */}
           <Timetable />
           <Organizer />
+          <Indivisual />
           <section ref={scrollRef}>
             <Map />
           </section>
