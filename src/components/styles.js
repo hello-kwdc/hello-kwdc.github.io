@@ -553,7 +553,6 @@ export const SectionOrganizer = styled.div`
   width: 100%;
   height: 100%;
   background-color: #000;
-  background-image: url("./resources/background/speaker_bg.png");
   object-fit: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
