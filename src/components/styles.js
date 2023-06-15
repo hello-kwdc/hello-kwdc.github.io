@@ -657,6 +657,11 @@ export const SectionIndivisualContent = styled.div`
 export const SectionIndivisualContentTitle = styled.span`
   font-size: 34px;
   font-weight: 700;
+  @media screen and (max-width: 1200px) {
+    & {
+      width: 90%;
+    }
+  }
 `;
 
 export const SectionIndivisualContentSubTitle = styled.span`
@@ -680,12 +685,24 @@ export const SectionIndivisualContentReward = styled.span`
       width: 80%;
     }
   }
+
+  @media screen and (max-width: 620px) {
+    & {
+      flex-direction: column;
+    }
+  }
 `;
 
 export const SectionIndivisualContentRewardSection = styled.span`
   display: flex;
   flex-direction: column;
   align-self: center;
+
+  @media screen and (max-width: 620px) {
+    & {
+      width: 100%;
+    }
+  }
 `;
 
 export const SectionIndivisualContentRewardTitle = styled.span`
@@ -699,6 +716,12 @@ export const SectionIndivisualContentRewardDescription = styled.span`
   color: #3C3B3B;
   font-weight: 400;
   line-height: 22.5px;
+
+  @media screen and (max-width: 620px) {
+    & {
+      margin-bottom: 40px;
+    }
+  }
 `;
 
 export const SectionIndivisualContentRewardCount = styled.span`
