@@ -11,7 +11,7 @@ const Main = ({ handleButtonClick }) => {
             <span style={{ fontWeight: 200 }}>2023</span>
           </SC.SectionMainContentTitle>
           <SC.SectionMainContentSubTitle>
-            Korea Wide Developer Conference
+            Koreawide Developer Conference
           </SC.SectionMainContentSubTitle>
           <p>
             2023. 07. 18. 10:30 a.m. <br />
