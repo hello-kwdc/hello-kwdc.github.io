@@ -697,7 +697,7 @@ export const SectionIndivisualContentRewardDescription = styled.span`
   font-size: 15px;
   color: #3C3B3B;
   font-weight: 400;
-  lineHeight: 22.5px;
+  line-height: 22.5px;
 `;
 
 export const SectionIndivisualContentRewardCount = styled.span`
