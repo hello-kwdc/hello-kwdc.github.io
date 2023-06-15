@@ -15,6 +15,9 @@ const Footer = () => {
           <a href="https://twitter.com/HelloKWDC" target="_blank">
             Twitter
           </a>
+          <a href="https://medium.com/kwdc23" target="_blank">
+            Medium
+          </a>
           <a href="mailto:hello.kwdc@gmail.com" target="_blank">
             Contact Us
           </a>

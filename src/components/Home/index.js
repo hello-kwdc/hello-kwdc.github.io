@@ -10,7 +10,7 @@ const Home = () => {
             we can make great things happen
           </SC.SectionHomeContentTitle>
           <SC.SectionHomeContentSubTitle style={{ padding: "0 30px" }}>
-            Korea Wide Developer Conference는 <br />
+            Koreawide Developer Conference는 <br />
             한국 Apple 생태계 구성원들을 위한 가장 큰 축제예요.
           </SC.SectionHomeContentSubTitle>
           <p style={{ padding: "0 30px", lineHeight: "25px" }}>
