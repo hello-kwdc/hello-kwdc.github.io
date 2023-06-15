@@ -168,4 +168,10 @@ export const ORGANIZER = [
     comment: <span>저는 html로 코딩하는거 좋아합니다.</span>,
     link: "https://github.com/JIINHEO",
   },
+  {
+    name: "예니(Yeni)",
+    image: "./resources/organizer/yeni.png",
+    comment: <span>Code Pray Love</span>,
+    link: "https://www.linkedin.com/in/yeniful/",
+  },
 ];
