@@ -16,6 +16,13 @@ const Sponsors = () => {
                     style={{ width: "250px !important" }}
                   />
                 </SC.SponsorEach>
+                <SC.SponsorEach className="sponsor_content">
+                  <span>Keystone</span>
+                  <img
+                    src="./resources/logo/SP_udemy.png"
+                    style={{ width: "250px !important" }}
+                  />
+                </SC.SponsorEach>
               </SC.SponsorBody>
             </SC.SponsorColumn>
             <SC.SponsorColumn>
