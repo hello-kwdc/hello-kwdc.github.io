@@ -31,14 +31,14 @@ const Sponsors = () => {
                   <span>Platinum</span>
                   <img
                     src="./resources/logo/SP_kakaobank.png"
-                    style={{ width: "230px !important" }}
+                    style={{ width: "200px !important" }}
                   />
                 </SC.SponsorEach>
                 <SC.SponsorEach className="sponsor_content">
                   <span>Platinum</span>
                   <img
                     src="./resources/logo/SP_kia_logo.png"
-                    style={{ width: "230px !important" }}
+                    style={{ width: "160px !important" }}
                   />
                 </SC.SponsorEach>
               </SC.SponsorBody>
@@ -50,7 +50,7 @@ const Sponsors = () => {
                     <span>Sliver</span>
                     <img
                       src="./resources/logo/SP_jumpit.png"
-                      style={{ width: "126px !important" }}
+                      style={{ width: "100px !important" }}
                     />
                   </div>
                   <div className="sponsor_content">
@@ -80,7 +80,7 @@ const Sponsors = () => {
                     <span className="sponsor_small">Bronze</span>
                     <img
                       src="./resources/logo/SP_wooa.png"
-                      style={{ width: "126px !important" }}
+                      style={{ width: "80px !important" }}
                     />
                   </div>
                   <div
@@ -90,7 +90,7 @@ const Sponsors = () => {
                     <span className="sponsor_small">Special</span>
                     <img
                       src="./resources/logo/SP_smpt.png"
-                      style={{ width: "140px !important" }}
+                      style={{ width: "120px !important" }}
                     />
                   </div>
                   </div>
