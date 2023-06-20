@@ -196,60 +196,6 @@ export const SectionHomeContentSubTitle = styled.span`
   margin: 18px 0 12px 0;
 `;
 
-export const SectionCommitees = styled.div`
-  width: 100%;
-  background-color: #000;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  & > div:nth-of-type(3n-2) {
-    background-color: #343434;
-  }
-  @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(1, 1fr);
-    & > div:nth-of-type(2n-1) {
-      background-color: #343434;
-    }
-    & > div:nth-of-type(2n) {
-      background-color: #000000;
-    }
-  }
-`;
-
-export const SectionCommiteesEach = styled.div`
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-`;
-
-export const SectionCommiteesEachContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-`;
-export const SectionCommiteesEachTitle = styled.span`
-  font-size: 34px;
-`;
-export const SectionCommiteesEachBody = styled.span`
-  margin-top: 20px;
-  font-size: 17px;
-  font-weight: 300;
-  @media screen and (max-width: 768px) {
-    font-size: 15px;
-  }
-`;
-export const SectionCommiteesEachContentFooter = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  & > img {
-    padding: 30px;
-  }
-`;
-
 export const SectionSponsors = styled.div`
   width: 100%;
   height: 100%;

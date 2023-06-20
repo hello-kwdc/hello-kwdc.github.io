@@ -3,7 +3,6 @@ import { useRef } from "react";
 import Navigator from "@/components/Navigator";
 import Home from "@/components/Home";
 import Main from "@/components/Main";
-import Commitees from "@/components/Commitees";
 import Sponsors from "@/components/Sponsors";
 import Speakers from "@/components/Speakers";
 import Timetable from "@/components/Timetable";
@@ -31,7 +30,6 @@ const Landing = () => {
           <Navigator handleButtonClick={handleButtonClick} />
           <Main handleButtonClick={handleButtonClick} />
           <Home />
-          <Commitees />
           <Sponsors />
           {/* <Speakers /> */}
           <Timetable />
