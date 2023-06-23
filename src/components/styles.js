@@ -372,20 +372,20 @@ export const SectionSpeakersContentWrapper = styled.div`
 export const Speaker = styled.div`
   position: relative;
   width: 308px;
-  height: 380px;
+  height: 420px;
   overflow: hidden;
   border-radius: 20px;
   color: #fff;
   @media screen and (max-width: 900px) {
     & {
       width: 250px;
-      height: 300px;
+      height: 420px;
     }
   }
   @media screen and (max-width: 767px) {
     & {
       width: 100%;
-      height: 350px;
+      height: 400px;
     }
   }
 `;
@@ -393,8 +393,7 @@ export const Speaker = styled.div`
 export const SpeakerIntroCard = styled(Speaker)``;
 
 export const FirstCard = styled(Speaker)`
-  @media screen and (max-width: 767px) {
-    & {
+  @media screen and (max-width: 900px) {
       height: 120px;
     }
   }
@@ -407,7 +406,7 @@ export const FirstCardContents = styled.div`
   justify-content: space-between;
   height: 88%;
   color: #fff;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 900px) {
     & {
       justify-content: start;
       gap: 30px;
