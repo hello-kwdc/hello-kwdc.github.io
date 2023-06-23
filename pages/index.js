@@ -31,7 +31,7 @@ const Landing = () => {
           <Main handleButtonClick={handleButtonClick} />
           <Home />
           <Sponsors />
-          {/* <Speakers /> */}
+          <Speakers />
           <Timetable />
           <Organizer />
           <Indivisual />

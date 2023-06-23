@@ -14,33 +14,28 @@ const Speakers = () => {
                 <React.Fragment key={`speaker_${i}`}>
                   {i === 0 ? (
                     <SC.FirstCard>
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          padding: "30px",
-                          justifyContent: "space-between",
-                          height: "88%",
-                          color: "#fff",
-                        }}
-                      >
-                        <div style={{ fontSize: "30px", fontWeight: "700" }}>
+                      <SC.FirstCardContents>
+                        <SC.FirstCardTitle>
                           {info.title}
-                        </div>
+                        </SC.FirstCardTitle>
                         <div>
                           <div>{info.sub1}</div>
                           <div>{info.sub2}</div>
                         </div>
-                      </div>
+                      </SC.FirstCardContents>
                     </SC.FirstCard>
                   ) : (
                     <SC.Speaker>
                       <SC.SpeakerFront>
                         <SC.SpeakerFrontContent>
-                          <SC.SessionTitle>{info.title}</SC.SessionTitle>
-                          <SC.SessionSub>
-                            {info.speaker} / {info.title}
-                          </SC.SessionSub>
+                          <SC.SpeakerImage image={info.image}></SC.SpeakerImage>
+                          <SC.SpeakerInfo>
+                            <SC.SessionCategory>{info.category}</SC.SessionCategory>
+                            <SC.SessionTitle>{info.title}</SC.SessionTitle>
+                            <SC.SessionSub>
+                              {info.speaker} / {info.belong}
+                            </SC.SessionSub>
+                          </SC.SpeakerInfo>
                         </SC.SpeakerFrontContent>
                       </SC.SpeakerFront>
                       <SC.SpeakerBack>
@@ -50,19 +45,24 @@ const Speakers = () => {
                               style={{
                                 display: "flex",
                                 alignItems: "flex-end",
-                                marginBottom: "30px",
+                                flexWrap: "wrap"
                               }}
                             >
-                              <div style={{ fontSize: "20px" }}>
+                              <div style={{ fontSize: "20px", fontWeight: 500, paddingTop: "7px", marginRight: "8px" }}>
                                 {info.speaker}
                               </div>
                               <div
-                                style={{ fontSize: "16px", marginLeft: "8px" }}
+                                style={{ fontSize: "13px", fontWeight: 350 }}
                               >
                                 {info.belong}
                               </div>
                             </div>
-                            <div>{info.detail}</div>
+                            <div style={{ fontSize: "14px", fontWeight: 350, lineHeight: "22px", marginTop: "14px" }}>
+                              {info.introduce}
+                            </div>
+                            <div style={{ fontSize: "17px", fontWeight: 500, lineHeight: "22px", marginTop: "22px" }}>
+                              {info.detail}
+                            </div>
                           </div>
                           <div
                             style={{
@@ -71,10 +71,7 @@ const Speakers = () => {
                               alignItems: "center",
                             }}
                           >
-                            <SC.SessionTrack>
-                              Track {info.track}
-                            </SC.SessionTrack>
-                            <div>{info.time}</div>
+
                           </div>
                         </SC.SpeakerBackContent>
                       </SC.SpeakerBack>
