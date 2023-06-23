@@ -477,17 +477,30 @@ export const SpeakerInfo = styled.div`
   display: flex;
   gap: 22px;
   flex-direction: column;
+
+  @media screen and (max-width: 500px) {
+    & {
+      gap: 14px;
+    }
+  }
 `;
 
 export const SessionCategory = styled.span`
   font-size: 15px;
-  margin-bottom: -12px;
+  margin-bottom: -6px;
 `;
 
 export const SessionTitle = styled.span`
   font-size: 21px;
   line-height: 27px;
   font-weight: 700;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
 `;
 
 export const SessionSub = styled.span`
@@ -518,6 +531,39 @@ export const SpeakerBackContent = styled.div`
   height: 90%;
   padding: 30px;
   color: #fff;
+
+  @media screen and (max-width: 500px) {
+    & {
+      padding: 24px;
+    }
+  }
+`;
+
+export const SpeakerBackIntroduce = styled.div`
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 22px;
+  margin-top: 14px;
+
+  @media screen and (max-width: 500px) {
+    & {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+  }
+`;
+
+export const SpeakerBackDetail = styled.div`
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 22px;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const SessionTrack = styled.div`
@@ -879,18 +925,36 @@ export const TicketBody = styled.div`
 `;
 export const NormalTicket = styled.div`
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #1a3f85;
 `;
 export const ScholarshipTicket = styled.div`
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #efefef;
 `;
 
 export const TicketHeader = styled.div`
   color: ${(props) => props.color};
 `;
+
+export const TicketTitle = styled.div`
+  font-size: 50px;
+  font-weight: 700;
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+  }
+`;
+
+export const TicketPrice = styled.div`
+  font-size: 20px;
+  margin: 4px 0 20px 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+`;
+
 export const TicketFooter = styled.div`
   color: ${(props) => props.color};
   > div {
@@ -898,6 +962,7 @@ export const TicketFooter = styled.div`
   }
   @media screen and (max-width: 768px) {
     font-size: 14px;
+    line-height: 21px;
   }
 `;
 
@@ -915,6 +980,7 @@ export const TicketButton = styled.div`
   @media screen and (max-width: 768px) {
     width: 130px;
     height: 40px;
+    font-size: 14px;
   }
   & path {
     fill: ${(props) => props.color};

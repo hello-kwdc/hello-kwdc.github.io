@@ -57,12 +57,8 @@ const Speakers = () => {
                                 {info.belong}
                               </div>
                             </div>
-                            <div style={{ fontSize: "14px", fontWeight: 350, lineHeight: "22px", marginTop: "14px" }}>
-                              {info.introduce}
-                            </div>
-                            <div style={{ fontSize: "17px", fontWeight: 500, lineHeight: "22px", marginTop: "22px" }}>
-                              {info.detail}
-                            </div>
+                            <SC.SpeakerBackIntroduce>{info.introduce}</SC.SpeakerBackIntroduce>
+                            <SC.SpeakerBackDetail>{info.detail}</SC.SpeakerBackDetail>
                           </div>
                           <div
                             style={{
