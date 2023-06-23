@@ -1,15 +1,14 @@
 import React from "react";
 import * as SC from "@/components/styles";
 
-import { TRACK_1, TRACK_2, TRACK_3 } from "./track.js";
+import { TRACK_1, TRACK_2, TRACK_3, TRACK_4 } from "./track.js";
 
 const SectionTitle = () => {
   return (
     <SC.SectionTitle style={{ top: "-90px" }}>
       <div style={{ fontSize: "30px", fontWeight: 700 }}>Timetable</div>
       <div className="timetable_title">
-        자세한 시간표와 프로그램은 6월 말 공개되며, 발표자 정보와 함께 확인하실
-        수 있습니다.
+        자세한 시간표는 7월 초 공개될 예정입니다.
       </div>
     </SC.SectionTitle>
   );
@@ -21,7 +20,7 @@ const Timetable = () => {
       <SC.SectionTimetable>
         <SC.SectionTimetableContent>
           <SC.SectionTimetableContentWrapper>
-            {[TRACK_1, TRACK_2, TRACK_3].map((track, trackIndex) => {
+            {[TRACK_1, TRACK_2, TRACK_3, TRACK_4].map((track, trackIndex) => {
               return (
                 <SC.TimetableEach key={`TRACK_${trackIndex}`}>
                   {trackIndex === 0 ? <SectionTitle /> : null}

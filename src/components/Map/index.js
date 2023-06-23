@@ -47,22 +47,18 @@ const Map = () => {
             <SC.NormalTicket>
               <SC.TicketWrapper>
                 <SC.TicketHeader color="#fff">
-                  <div style={{ fontSize: "50px" }}>General Ticket</div>
-                  <div style={{ marginBottom: "20px" }}>₩68,000</div>
+                  <SC.TicketTitle>General Ticket</SC.TicketTitle>
+                  <SC.TicketPrice>₩68,000</SC.TicketPrice>
                   <SC.TicketButton color="#fff" onClick={handleGeneralTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>
                 </SC.TicketHeader>
                 <SC.TicketFooter color="#fff">
-                  <div>· 티켓은 총 1,100매 입니다.</div>
                   <div>
-                    · 티켓 종류에 상관없이 참가자들은 행사에서 제공되는 세션,
-                    이벤트 참가, 굿즈를 수령할 수 있습니다.
-                  </div>
-                  <div>
-                    · 티켓은 한정된 수량으로 판매됩니다. 판매 일정보다 빠르게
-                    매진될 수 있습니다.
+                    · 티켓은 총 1,100매 입니다. <br/>
+                    · 티켓 종류에 상관없이 참가자들은 행사에서 제공되는 세션, 이벤트 참가, 굿즈를 수령할 수 있습니다. <br/>
+                    · 티켓은 한정된 수량으로 판매됩니다. 판매 일정보다 빠르게 매진될 수 있습니다.
                   </div>
                 </SC.TicketFooter>
               </SC.TicketWrapper>
@@ -70,22 +66,18 @@ const Map = () => {
             <SC.ScholarshipTicket>
               <SC.TicketWrapper>
                 <SC.TicketHeader color="#000">
-                  <div style={{ fontSize: "50px" }}>Scholarship Ticket</div>
-                  <div style={{ marginBottom: "20px" }}>₩45,000</div>
+                  <SC.TicketTitle>Scholarship Ticket</SC.TicketTitle>
+                  <SC.TicketPrice>₩45,000</SC.TicketPrice>
                   <SC.TicketButton color="#000" onClick={handleScholarshipTicketBuy}>
                     티켓 구매
                     <IconArrowRight />
                   </SC.TicketButton>
                 </SC.TicketHeader>
                 <SC.TicketFooter color="#000">
-                  <div>· 티켓은 총 150매 입니다.</div>
                   <div>
-                    · 티켓 종류에 상관없이 참가자들은 행사에서 제공되는 세션,
-                    이벤트 참가, 굿즈를 수령할 수 있습니다.
-                  </div>
-                  <div>
-                    · 티켓은 한정된 수량으로 판매됩니다. 판매 일정보다 빠르게
-                    매진될 수 있습니다.
+                    · 티켓은 총 150매 입니다.<br/>
+                    · 티켓 종류에 상관없이 참가자들은 행사에서 제공되는 세션, 이벤트 참가, 굿즈를 수령할 수 있습니다.<br/>
+                    · 티켓은 한정된 수량으로 판매됩니다. 판매 일정보다 빠르게 매진될 수 있습니다.
                   </div>
                 </SC.TicketFooter>
               </SC.TicketWrapper>

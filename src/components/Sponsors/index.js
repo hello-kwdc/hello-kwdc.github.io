@@ -97,17 +97,12 @@ const Sponsors = () => {
                   </SC.SponsorEach>
               </SC.SponsorBody>
               <div style={{ width: "100%", textAlign: "end" }}>
-                <a
+                <SC.SponsorContact
                   href="mailto:lingostar.joker@gmail.com"
                   target="_blank"
-                  style={{
-                    fontSize: "20px",
-                    textDecoration: "none",
-                    color: "#fff",
-                  }}
                 >
                   후원문의: lingostar.joker@gmail.com
-                </a>
+                </SC.SponsorContact>
               </div>
             </SC.SponsorColumn>
           </SC.SectionSponsorsContentWrapper>

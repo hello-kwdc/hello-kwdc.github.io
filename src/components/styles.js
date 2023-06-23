@@ -156,6 +156,10 @@ export const SectionHome = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 500px) {
+    height: 850px;
+  }
 `;
 
 export const SectionHomeContent = styled.div`
@@ -189,11 +193,27 @@ export const SectionHomeContentTitle = styled.span`
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+  }
 `;
 
 export const SectionHomeContentSubTitle = styled.span`
   font-size: 22px;
   margin: 18px 0 12px 0;
+  @media screen and (max-width: 500px) {
+    font-size: 17px;
+  }
+`;
+
+export const SectionHomeContentDescription = styled.span`
+  line-height: 25px;
+  margin: 18px 0 12px 0;
+  @media screen and (max-width: 500px) {
+    line-height: 21px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
 `;
 
 export const SectionSponsors = styled.div`
@@ -289,6 +309,18 @@ export const SponsorBody = styled.div`
   }
 `;
 
+export const SponsorContact = styled.a`
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 12px;
+    }
+  }
+`;
+
 export const SponsorEach = styled.div`
   display: flex;
   justify-content: space-between;
@@ -353,14 +385,47 @@ export const Speaker = styled.div`
   @media screen and (max-width: 767px) {
     & {
       width: 100%;
-      height: 300px;
+      height: 350px;
     }
   }
 `;
 
 export const SpeakerIntroCard = styled(Speaker)``;
 
-export const FirstCard = styled(Speaker)``;
+export const FirstCard = styled(Speaker)`
+  @media screen and (max-width: 767px) {
+    & {
+      height: 120px;
+    }
+  }
+`;
+
+export const FirstCardContents = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+  height: 88%;
+  color: #fff;
+  @media screen and (max-width: 500px) {
+    & {
+      justify-content: start;
+      gap: 30px;
+      padding: 0;
+    }
+  }
+`;
+
+export const FirstCardTitle = styled.div`
+  font-size: 30px;
+  font-weight: 700;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 35px;
+    }
+  }
+`;
 
 export const SpeakerFront = styled.div`
   width: 100%;
@@ -374,25 +439,74 @@ export const SpeakerFront = styled.div`
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 `;
 
 export const SpeakerFrontContent = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  height 100%;
+  padding: 30px;
   color: #fff;
+  justify-content: space-between;
   & > * {
     margin-top: 20px;
   }
 `;
 
+export const SpeakerImage = styled.div`
+  width: 50%;
+  aspect-ratio: auto 1/1;
+  margin-top: 0;
+  background-image: url(${(props) => props.image});
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media screen and (max-width: 767px) {
+    & {
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    & {
+      width: 40%;
+    }
+  }
+`;
+
+export const SpeakerInfo = styled.div`
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+
+  @media screen and (max-width: 500px) {
+    & {
+      gap: 14px;
+    }
+  }
+`;
+
+export const SessionCategory = styled.span`
+  font-size: 15px;
+  margin-bottom: -6px;
+`;
+
 export const SessionTitle = styled.span`
-  font-size: 20px;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 700;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
 `;
 
 export const SessionSub = styled.span`
-  font-size: 12px;
+  font-size: 15px;
+  color: #d5d5d5;
+  line-height: 22px;
 `;
 
 export const SpeakerBack = styled.div`
@@ -415,8 +529,41 @@ export const SpeakerBackContent = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 90%;
-  padding: 20px;
+  padding: 30px;
   color: #fff;
+
+  @media screen and (max-width: 500px) {
+    & {
+      padding: 24px;
+    }
+  }
+`;
+
+export const SpeakerBackIntroduce = styled.div`
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 22px;
+  margin-top: 14px;
+
+  @media screen and (max-width: 500px) {
+    & {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+  }
+`;
+
+export const SpeakerBackDetail = styled.div`
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 22px;
+
+  @media screen and (max-width: 500px) {
+    & {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const SessionTrack = styled.div`
@@ -445,7 +592,7 @@ export const SectionTimetableContent = styled.div`
 
 export const SectionTimetableContentWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -458,6 +605,10 @@ export const SectionTimetableContentWrapper = styled.div`
   @media screen and (max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  @media screen and (max-width: 500px) {
+    gap: 30px;
+  }
 `;
 
 export const TimetableEach = styled.div`
@@ -468,11 +619,16 @@ export const TableTitle = styled.div`
   color: #f6ab1e;
   font-size: 35px;
   font-weight: 700;
+
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
 `;
 
 const TableContent = styled.div`
   width: 100%;
-  height: 90px;
+  padding: 18px 0;
   border-radius: 10px;
   color: #fff;
   display: flex;
@@ -484,6 +640,11 @@ const TableContent = styled.div`
   }
   & > * {
     margin-left: 20px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 14px;
+    margin-bottom: 12px;
   }
 `;
 export const TableFullContent = styled(TableContent)`
@@ -554,6 +715,12 @@ export const Organizer = styled.div`
       height: 350px;
     }
   }
+  @media screen and (max-width: 500px) {
+    & {
+      width: 100%;
+      height: 300px;
+    }
+  }
 `;
 export const OrganizerImage = styled.div`
   width: 100%;
@@ -567,6 +734,12 @@ export const OrganizerImage = styled.div`
   @media screen and (max-width: 700px) {
     & {
       height: 150px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    & {
+      aspect-ratio: 1/4;
     }
   }
 `;
@@ -752,18 +925,36 @@ export const TicketBody = styled.div`
 `;
 export const NormalTicket = styled.div`
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #1a3f85;
 `;
 export const ScholarshipTicket = styled.div`
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #efefef;
 `;
 
 export const TicketHeader = styled.div`
   color: ${(props) => props.color};
 `;
+
+export const TicketTitle = styled.div`
+  font-size: 50px;
+  font-weight: 700;
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+  }
+`;
+
+export const TicketPrice = styled.div`
+  font-size: 20px;
+  margin: 4px 0 20px 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+`;
+
 export const TicketFooter = styled.div`
   color: ${(props) => props.color};
   > div {
@@ -771,6 +962,7 @@ export const TicketFooter = styled.div`
   }
   @media screen and (max-width: 768px) {
     font-size: 14px;
+    line-height: 21px;
   }
 `;
 
@@ -788,6 +980,7 @@ export const TicketButton = styled.div`
   @media screen and (max-width: 768px) {
     width: 130px;
     height: 40px;
+    font-size: 14px;
   }
   & path {
     fill: ${(props) => props.color};

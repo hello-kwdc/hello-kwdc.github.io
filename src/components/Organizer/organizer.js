@@ -4,11 +4,7 @@ export const ORGANIZER = [
     image: "./resources/organizer/unnyong.png",
     comment: (
       <span>
-        2017년부터 한국과 일본 iOS 개발자 커뮤니티의 기여를 시작한 소통형
-        개발자.
-        <br /> 2022년에는 포항에서 동료들과 함께 AsyncSwift를 만들고, 겪는 세무,
-        회계의 소용돌이 속에서 Organizer v2.0로 성장 중이에요. 모두와 함께
-        성장할 수 있다는 가능성은제 가슴을 뛰게해요 !
+        2017년부터 한국과 일본 iOS 개발자 커뮤니티의 기여를 시작한 소통형 개발자.
       </span>
     ),
     link: "https://twitter.com/unnnyong",

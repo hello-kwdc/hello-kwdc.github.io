@@ -13,7 +13,7 @@ const Home = () => {
             Koreawide Developer Conference는 <br />
             한국 Apple 생태계 구성원들을 위한 가장 큰 축제예요.
           </SC.SectionHomeContentSubTitle>
-          <p style={{ padding: "0 30px", lineHeight: "25px" }}>
+          <SC.SectionHomeContentDescription style={{ padding: "0 30px" }}>
             2009년 아이폰이 한국에서 처음 정식 발매된지 어느새 14년이 흘렀어요.
             <br />
             그동안 한국 Apple 생태계에서 활약해 온 개발자, 기획자, 디자이너 등의
@@ -27,7 +27,7 @@ const Home = () => {
             <br />
             7월 18일 서울에서 함께 모여, 앞으로 만들어나갈 더 다양한 가치들에
             대해서 소통해보아요.
-          </p>
+          </SC.SectionHomeContentDescription>
         </SC.SectionHomeContent>
       </SC.SectionHome>
     </SC.Section>
