@@ -130,7 +130,7 @@ export const SPEAKERS = [
     title: "매크로 부수고 부서지기",
     category: "Programming",
     speaker: "naljin",
-    image: "./resources/speaker/naljin.png",
+    image: "./resources/speaker/naljin.PNG",
     belong: "지마켓",
     introduce: "우당탕탕 좌충우돌 얼레벌레 iOS 대모험",
     detail: "매크로에 대한 정의, 도입이유, 디자인 철학, 작성 방법, 동작 원리 등을 전반적으로 살펴볼 예정입니다.",
