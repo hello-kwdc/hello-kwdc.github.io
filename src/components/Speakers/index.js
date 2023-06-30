@@ -59,6 +59,10 @@ const Speakers = () => {
                             </div>
                             <SC.SpeakerBackIntroduce>{info.introduce}</SC.SpeakerBackIntroduce>
                             <SC.SpeakerBackDetail>{info.detail}</SC.SpeakerBackDetail>
+                            <SC.SpeakerLinks>
+                              <a href={info.link1} target="_blank">{info.linkTitle1}</a>
+                              <a href={info.link2} target="_blank">{info.linkTitle2}</a>
+                            </SC.SpeakerLinks>
                           </div>
                           <div
                             style={{

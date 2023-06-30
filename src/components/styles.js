@@ -538,6 +538,24 @@ export const SpeakerBackContent = styled.div`
   }
 `;
 
+export const SpeakerLinks = styled.div`
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 16px;
+  & a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px 0 0;
+  }
+
+  @media screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
 export const SpeakerBackIntroduce = styled.div`
   font-size: 14px;
   font-weight: 350;
