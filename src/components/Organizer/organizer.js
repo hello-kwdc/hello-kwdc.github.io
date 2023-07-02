@@ -170,4 +170,16 @@ export const ORGANIZER = [
     comment: <span>Code Pray Love</span>,
     link: "https://www.linkedin.com/in/yeniful/",
   },
+  {
+    name: "Rinda",
+    image: "./resources/organizer/rinda.png",
+    comment: <span>빈틈을 매꿔주는 디자이너 Rinda입니다!</span>,
+    link: "https://www.linkedin.com/in/darin-han-374928228",
+  },
+  {
+    name: "Yena",
+    image: "./resources/organizer/yena.png",
+    comment: <span>사용자의 목소리를 경청하는 디자이너가 되고 싶습니다!</span>,
+    link: "https://www.linkedin.com/in/yeeunkim0223/",
+  },
 ];
