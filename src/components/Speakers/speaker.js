@@ -140,9 +140,9 @@ export const SPEAKERS = [
   {
     title: "생성형AI 기반의 에듀테크 플랫폼",
     category: "Sponsorship session",
-    speaker: "TBA",
+    speaker: "최삼락 상무",
     image: "./resources/speaker/udemy.png",
-    belong: "웅진 Udemy",
+    belong: "웅진씽크빅 Udemy",
     introduce: "교육업계 최초의 클라우드 전환. 1위 AI 학습 플랫폼, 웅진스마트올.",
     detail: "웅진스마트올 iOS 서비스 개발 사례 생성형AI를 통한 도약. Udemy를 통한 리스킬링&업스킬링",
     track: "1",
@@ -244,7 +244,7 @@ export const SPEAKERS = [
     link1: "https://babbab2.tistory.com/",
   },
   {
-    title: "글로벌 앱 개발을 위한 Localization",
+    title: "글로벌 앱을 위한 Localization: 번역은 시작일뿐",
     category: "Programming",
     speaker: "애플사이다",
     image: "./resources/speaker/apple-sider.png",
@@ -255,7 +255,7 @@ export const SPEAKERS = [
     time: "11:00 ~ 11:20",
     linkTitle1: "🔗  Blog",
     link1: "https://applecider2020.tistory.com/",
-    linkTitle2: "🔗  LinkedIn",
+    linkTitle2: "🔗  Instagram",
     link2: "https://instagram.com/liah_dev/"
   },
   {
