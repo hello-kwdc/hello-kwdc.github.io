@@ -551,7 +551,6 @@ export const SpeakerLinks = styled.div`
 
   @media screen and (max-width: 500px) {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
 `;
@@ -611,7 +610,7 @@ export const SectionTimetableContentWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  align-items: center;
+  align-items: top;
   gap: 20px;
   max-width: 1920px;
   width: 100%;
@@ -634,12 +633,12 @@ export const TimetableEach = styled.div`
 `;
 export const TableTitle = styled.div`
   color: #f6ab1e;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
+  margin-bottom: 12px;
 
   @media screen and (max-width: 500px) {
     font-size: 25px;
-    margin-bottom: 12px;
   }
 `;
 
@@ -649,9 +648,10 @@ const TableContent = styled.div`
   border-radius: 10px;
   color: #fff;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: flex-start;
   margin-bottom: 20px;
+  white-space: pre-warp;
   & > span {
     color: #f6ab1e;
   }
@@ -692,6 +692,7 @@ export const SectionTitle = styled.div`
   white-space: nowrap;
   .timetable_title {
     font-size: 16px;
+    color: #9c9c9c;
     font-weight: 400;
     margin-top: 10px;
     white-space: nowrap;
@@ -713,7 +714,6 @@ export const SectionOrganizerContentWrapper = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  /* padding: 100px; */
   @media screen and (max-width: 850px) {
     & {
       padding: 20px;
