@@ -298,7 +298,7 @@ export const SPEAKERS = [
     image: "./resources/speaker/tobe.png",
     belong: "",
     introduce: "길이 없다면 만들고, 벽이 있다면 부수자는 마음으로 공부하고 있습니다.",
-    detail: "새롭게 출시된 SwiftData의 구성을 살펴보고 기존 CoreData 와 장단점을 비교하여 소개하며 SwiftData로 마이그레이션 과정 중 겪었던 경험들을 공유합니다.",
+    detail: "새롭게 출시된 SwiftData를 기존의 CoreData와 비교하여 소개합니다. 필요성, 구성 요소, 사용 방법을 전반적으로 살펴봅니다.",
     track: "여의도",
     time: "15:15 ~ 15:35",
   }
