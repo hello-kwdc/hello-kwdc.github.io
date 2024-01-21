@@ -68,10 +68,13 @@ const Speakers = () => {
                             style={{
                               display: "flex",
                               justifyContent: "space-between",
-                              alignItems: "center",
+                              paddingBottom: "15px",
                             }}
                           >
-
+                             <SC.SessionTrack>
+                               Track {info.track}
+                             </SC.SessionTrack>
+                             <div>{info.time}</div>
                           </div>
                         </SC.SpeakerBackContent>
                       </SC.SpeakerBack>
